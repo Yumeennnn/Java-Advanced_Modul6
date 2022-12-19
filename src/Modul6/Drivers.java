@@ -1,9 +1,9 @@
 package Modul6;
 
-/*
+/**
 @author Ahmad Rizky Has (202110370311161)
 @Source Code : https://github.com/Yumeennnn/Java-Advanced_Modul6
-*/
+**/
 import java.io.*;
 import java.nio.file.FileStore;
 import java.util.Arrays;
@@ -29,11 +29,11 @@ public class Drivers extends Factoring{
         Read("numbers");
     }
 
-    /*
+    /**
     Check Input From User
     @If User Input String will Store at variable inString
     @If User Input Number will Store at variable inNumber
-    */
+    **/
     public static void Input() throws Exception{
         try {
             while (UserInput) {
@@ -64,12 +64,12 @@ public class Drivers extends Factoring{
         }
     }
 
-/*
+/**
 Read Data
 @If User Input String , Data will show at case "string" at line 72
 @If User Input Number, Data will show at case "number" at line 90
 @Or User Input both , it will show all at same time
-*/
+**/
     public static void Read(String reads) throws Exception {
         switch (reads){
             case "string" -> {
